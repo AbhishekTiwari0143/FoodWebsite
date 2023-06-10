@@ -146,43 +146,29 @@ h1{
 #letter-1{
   position: absolute;
   width: 5vw;
-  top: 40%;
-  left: 35%;
+  top: 38%;
+  left: 40%;
   animation: letter 1.9s ease-in-out alternate infinite;
 }
 #letter-2{
   position: absolute;
   width: 7vw;
   top: 43%;
-  left: 42%;
+  left: 49%;
   animation: letter 1.9s ease-in-out alternate infinite;
 }
 #letter-3{
   position: absolute;
   width: 5vw;
+  left: 46%;
   top: 43%;
-  left: 42%;
   animation: letter 1.9s ease-in-out alternate infinite;
 }
 #letter-4{
   position: absolute;
   width: 5vw;
-  top: 43%;
-  left: 42%;
-  animation: letter 1.9s ease-in-out alternate infinite;
-}
-#letter-5{
-  position: absolute;
-  width: 5vw;
-  top: 43%;
-  left: 42%;
-  animation: letter 1.9s ease-in-out alternate infinite;
-}
-#letter-6{
-  position: absolute;
-  width: 5vw;
-  top: 43%;
-  left: 42%;
+  left: 55%;
+  top: 52%;
   animation: letter 1.9s ease-in-out alternate infinite;
 }
 
@@ -192,7 +178,7 @@ h1{
   align-items: center;
   justify-content: center;
   top: 75.6%;
-  width: 7vw;
+  width: 10vw;
   height: 2vw;
   cursor: pointer;
   font-size: 0.5vw;
@@ -202,13 +188,12 @@ h1{
   box-shadow: 0 8px 32px 0 rgba(228, 116, 45, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
-  
 }
-#explore a h1{
+#explore h1{
+  font-size: 30px;
   color: #fff;
+  transform: rotate(0deg);
 }
-
 @keyframes up {
   from{
     margin-top: -1vw;
